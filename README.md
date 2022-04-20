@@ -3,7 +3,7 @@ This repo contains the official implementation of TSR-SA: A real-time and high-p
 # Dataset
 We use [TT100K(Tsinghua-Tencent 100K)](http://cg.cs.tsinghua.edu.cn/traffic-sign/), and you need to convert the label format to YOLO format.
 # Install
-More details about install in [Darknet](https://github.com/AlexeyAB/darknet).
+More details about install in [Darknet](https://github.com/AlexeyAB/darknet#how-to-compile-on-linuxmacos-using-cmake).
 # Training
 
 # Citation
