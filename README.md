@@ -34,15 +34,26 @@ More details about install in [Darknet](https://github.com/AlexeyAB/darknet#how-
 **Fine-tuning on TT100K:**
 
 Depending on the mode you want, choose the corresponding cfg file and use the following command to train:
-- To train on Linux use command: `./darknet detector train cfg/tt100k.data cfg/yolov4-tt100k.cfg yolov4.conv.137`
-- For training on Linux with mAP: `./darknet detector train cfg/tt100k.data cfg/yolov4-tt100k.cfg yolov4.conv.137 -map`
+- To train on Linux use command: 
+
+`./darknet detector train cfg/tt100k.data cfg/yolov4-tt100k.cfg yolov4.conv.137`
+
+- For training on Linux with mAP:
+
+`./darknet detector train cfg/tt100k.data cfg/yolov4-tt100k.cfg yolov4.conv.137 -map`
 
 **More command line usage about training:**
 - [How to train with multi gpu](https://github.com/AlexeyAB/darknet#how-to-train-with-multi-gpu)
 
 # Testing
-- **For image:** `./darknet detector test cfg/tt100k.data cfg/yolov4-tt100k.cfg backup/yolov4-tt100k_base.weights -ext_output test.jpg`
-- **For video:** `./darknet detector test cfg/tt100k.data cfg/yolov4-tt100k.cfg backup/yolov4-tt100k_base.weights -ext_output test.mp4`
+- **For image:** 
+
+`./darknet detector test cfg/tt100k.data cfg/yolov4-tt100k.cfg backup/yolov4-tt100k_base.weights -ext_output test.jpg`
+
+- **For video:** 
+
+`./darknet detector test cfg/tt100k.data cfg/yolov4-tt100k.cfg backup/yolov4-tt100k_base.weights -ext_output test.mp4`
+
 - **More command line usage about testing in:** [How to use on the command line](https://github.com/AlexeyAB/darknet#how-to-use-on-the-command-line)
 
 # Citation
