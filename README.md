@@ -7,8 +7,6 @@ This repo contains the official implementation(Based on [Darknet](https://github
 # Dataset
 We use [TT100K(Tsinghua-Tencent 100K)](http://cg.cs.tsinghua.edu.cn/traffic-sign/) as dataset, and you need to convert the label format to YOLO format. 
 
-For example:
-
 1. Create the following folders in the root directory to store the datasets:
 ```
 TSR-SA
