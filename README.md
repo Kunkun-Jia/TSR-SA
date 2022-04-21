@@ -5,9 +5,9 @@ This repo contains the official implementation(Based on [Darknet](https://github
 
 [**Paper**](https://link.springer.com/article/10.1007/s00521-021-06526-1) | [**Code**](https://github.com/Kunkun-Jia/TSR-SA)
 # Dataset
-We use [TT100K(Tsinghua-Tencent 100K)](http://cg.cs.tsinghua.edu.cn/traffic-sign/) as dataset, and you need to convert the label format to YOLO format. 
+We use [TT100K(Tsinghua-Tencent 100K)](http://cg.cs.tsinghua.edu.cn/traffic-sign/) as dataset, and you need to convert the label format to YOLO format.
 
-1. Create the following folders in the root directory to store the datasets:
+1. Create the following folders in the root directory:
 ```
 TSR-SA
 └── VOC2007
@@ -17,7 +17,8 @@ TSR-SA
     ├── JPEGImages
     └── labels
 ```
-2. Use `genfiles.py` to generate training and test sets:
+2. Put the images and labels into the corresponding folders according to the format of the VOC dataset.
+3. Use `genfiles.py` to generate training and test sets:
 ```
 TSR-SA
 |── VOC2007
@@ -29,6 +30,7 @@ TSR-SA
 ├── 2007_test.txt
 └── 2007_train.txt
 ```
+4. The above is just a habit, you can follow your own habits, just modify the dataset path in `cfg/tt100k.data`.
 
 # Install
 More details about install in [Darknet](https://github.com/AlexeyAB/darknet#how-to-compile-on-linuxmacos-using-cmake).
