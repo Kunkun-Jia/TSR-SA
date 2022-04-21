@@ -1,0 +1,6 @@
+classes= 45
+train  = 2007_train.txt
+valid  = 2007_test.txt
+names = data/tt100k.names
+backup = backup
+
